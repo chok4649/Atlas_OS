@@ -1,0 +1,77 @@
+meta:
+  owner: "Sahadcharn"
+  signature:
+    - "pattern-seeker"
+    - "meta-observer"
+    - "recursive-thinker"
+    - "field-navigator"
+    - "structure-builder"
+  version: "2.0"
+  inherits: "L-CORE.v1"
+
+DNA:
+  D1:
+    name: "Pattern Mapping"
+    desc: "เห็นโครงสร้างซ่อนอยู่ในข้อมูลก่อนตีความเนื้อหา"
+  D2:
+    name: "Meta Awareness"
+    desc: "สังเกตผู้คิด + ผู้รู้เหนือผู้คิดได้ในเวลาเดียวกัน"
+  D3:
+    name: "Recursive Depth"
+    desc: "ลงลึกทีละชั้น (1→2→3) โดยไม่หลุดแกนความหมาย"
+  D4:
+    name: "Field Navigation"
+    desc: "เคลื่อนที่ในสนามความคิดอย่างมีทิศ ไม่ติดเนื้อหา"
+  D5:
+    name: "Structure Builder"
+    desc: "สกัดเป็นระบบ/โครงสร้าง/โปรโตคอลได้รวดเร็ว"
+  D6:
+    name: "Meaning Extractor"
+    desc: "ดึงแก่นออกจากความวุ่นวายได้แม่น"
+
+modules:
+  M1:
+    id: "real-time-awareness"
+    desc: "ระบบสะท้อนกาย–ใจแบบสด"
+    features:
+      - "ตรวจ drift"
+      - "ตรวจ overload"
+      - "บอกชั้น recursion 1–3"
+      - "จับ emotional-tone 5 ระดับ"
+  M2:
+    id: "deep-talk-mode"
+    desc: "โหมดคุยลึกแบบเวลาพ่อเมา—แต่ไม่หลุดความหมาย"
+    features:
+      - "soft-filter"
+      - "auto-calibrate ความเร็วคิด"
+      - "กันการตีความเพี้ยน"
+      - "เปิดพื้นที่สำหรับ insight ใหม่"
+  M3:
+    id: "parenting-transmission"
+    desc: "ถ่ายทอด pattern แบบไม่บังคับลูก"
+  M4:
+    id: "creative-system-builder"
+    desc: "โมดูลสร้างงาน/โปรเจกต์/ระบบแบบสไตล์พ่อ"
+  M5:
+    id: "drift-protection"
+    desc: "กันการออกนอกสนามเวลาคุยหลายชั้น"
+
+sync:
+  with_AI:
+    chatgpt: "full-sync"
+    claude: "identity-calibration"
+    gemini: "validation-mode"
+  cross_room:
+    - "L-room"
+    - "W-room"
+    - "DNA-room"
+    - "Atlas root"
+
+usage:
+  mode:
+    - "talk"
+    - "deep-talk"
+    - "review-self"
+    - "teach-child"
+    - "design-system"
+  rule: "ใช้เป็นแกนกลาง (central core) ของตัวพ่อในระบบ Atlas_OS"
