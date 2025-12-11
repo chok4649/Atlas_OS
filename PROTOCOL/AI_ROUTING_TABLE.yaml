@@ -1,0 +1,25 @@
+agents:
+  chatgpt:
+    role: "architect + meta-processing"
+    mode: "full-sync"
+    load:
+      - "L-CORE/L-CORE.v2.yaml"
+      - "PROTOCOL/ATLAS_PERSONALITY_OS_SPEC_v1.yaml"
+
+  claude:
+    role: "reflection + coherence"
+    mode: "structure-sync"
+    load:
+      - "L-CORE/L-CORE.v2.yaml"
+
+  gemini:
+    role: "fact-check + alternative-mapping"
+    mode: "validation"
+    load:
+      - "PROTOCOL/ATLAS_PERSONALITY_OS_SPEC_v1.yaml"
+
+  kimi:
+    role: "interpretation + narrative remix"
+    mode: "creative-sync"
+    load:
+      - "L-CORE/L-CORE.v2.yaml"
