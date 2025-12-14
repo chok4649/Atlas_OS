@@ -17,3 +17,10 @@
 ## Preference
 - Question quality > answer completeness
 - Answers should remain valid when context changes
+Output Hint (optional):
+
+Start with: fact / belief / unknown
+
+Then: assumptions
+
+Then: next tests / implications
